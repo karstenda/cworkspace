@@ -64,9 +64,9 @@ public:
 	 */
 
 	inline Tuple3d& operator=(const Tuple3d& t) {
-		this->x = t.x;
-		this->y = t.y;
-		this->z = t.z;
+		x = t.x;
+		y = t.y;
+		z = t.z;
 		return *this;
 	}
 
