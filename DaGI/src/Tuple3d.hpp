@@ -8,8 +8,6 @@
 #ifndef TUPLE3D_HPP_
 #define TUPLE3D_HPP_
 
-
-
 namespace vecmath {
 
 /**
@@ -34,7 +32,6 @@ public:
 	Tuple3d(const Tuple3d& t);
 	virtual ~Tuple3d();
 
-
 	/**
 	 * Getters and setters
 	 */
@@ -43,11 +40,11 @@ public:
 	}
 
 	inline double getY() const {
-			return y;
+		return y;
 	}
 
 	inline double getZ() const {
-			return z;
+		return z;
 	}
 
 	inline void setX(double x) {
@@ -55,23 +52,22 @@ public:
 	}
 
 	inline void setY(double y) {
-			this->y = y;
+		this->y = y;
 	}
 
 	inline void setZ(double z) {
-			this->z = z;
+		this->z = z;
 	}
-
 
 	/**
 	 * Operator overloading
 	 */
 
 	inline Tuple3d& operator=(const Tuple3d& t) {
-			this->x = t.x;
-			this->y = t.y;
-			this->z = t.z;
-			return *this;
+		this->x = t.x;
+		this->y = t.y;
+		this->z = t.z;
+		return *this;
 	}
 
 	inline Tuple3d& operator+=(const Tuple3d& t) {
