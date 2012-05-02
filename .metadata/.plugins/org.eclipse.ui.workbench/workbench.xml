@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="26" version="2.0">
+<workbench progressCount="28" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="25">
 <fastViewData fastViewLocation="1024"/>
@@ -8,15 +8,15 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="146" y="26"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="166" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="140" y="26"/>
-<coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="74" y="26"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="108" y="26"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="92" y="26"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="108" y="26"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
+<coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="82" y="30"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="164" y="26"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -24,23 +24,43 @@
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1335051671257" focus="true" label="Workspace - C/C++">
 <editors>
-<editorArea activeWorkbook="DefaultEditorWorkbook">
-<info part="DefaultEditorWorkbook">
+<editorArea activeWorkbook="org.eclipse.ui.internal.EditorStack@6ecaf9">
+<info part="org.eclipse.ui.internal.EditorStack@6ecaf9">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Tuple3d.cpp" partName="Tuple3d.cpp" path="/tmp/karsten/cworkspace/DaGI/src/Tuple3d.cpp" title="Tuple3d.cpp" tooltip="DaGI/src/Tuple3d.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DaGI/src/Tuple3d.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="80" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Vector3d.cpp" partName="Vector3d.cpp" path="/home/karsten/Lab/cworkspace/DaGI/src/vecmath/Vector3d.cpp" title="Vector3d.cpp" tooltip="DaGI/src/vecmath/Vector3d.cpp" workbook="org.eclipse.ui.internal.EditorStack@6ecaf9">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DaGI/src/vecmath/Vector3d.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1064" selectionTopPixel="510"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Tuple3d.hpp" partName="Tuple3d.hpp" path="/tmp/karsten/cworkspace/DaGI/src/Tuple3d.hpp" title="Tuple3d.hpp" tooltip="DaGI/src/Tuple3d.hpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DaGI/src/Tuple3d.hpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1385" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Vector3d.hpp" partName="Vector3d.hpp" path="/home/karsten/Lab/cworkspace/DaGI/src/vecmath/Vector3d.hpp" title="Vector3d.hpp" tooltip="DaGI/src/vecmath/Vector3d.hpp" workbook="org.eclipse.ui.internal.EditorStack@6ecaf9">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DaGI/src/vecmath/Vector3d.hpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="693" selectionTopPixel="340"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Tuple3d.hpp" partName="Tuple3d.hpp" path="/home/karsten/Lab/cworkspace/DaGI/src/vecmath/Tuple3d.hpp" title="Tuple3d.hpp" tooltip="DaGI/src/vecmath/Tuple3d.hpp" workbook="org.eclipse.ui.internal.EditorStack@6ecaf9">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DaGI/src/vecmath/Tuple3d.hpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1232" selectionTopPixel="1241"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Point3d.hpp" partName="Point3d.hpp" path="/home/karsten/Lab/cworkspace/DaGI/src/vecmath/Point3d.hpp" title="Point3d.hpp" tooltip="DaGI/src/vecmath/Point3d.hpp" workbook="org.eclipse.ui.internal.EditorStack@6ecaf9">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DaGI/src/vecmath/Point3d.hpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="328" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="math.hpp" partName="math.hpp" path="/home/karsten/Lab/cworkspace/DaGI/src/math.hpp" title="math.hpp" tooltip="DaGI/src/math.hpp" workbook="org.eclipse.ui.internal.EditorStack@6ecaf9">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DaGI/src/math.hpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="222" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Tuple3d.cpp" partName="Tuple3d.cpp" path="/home/karsten/Lab/cworkspace/DaGI/src/vecmath/Tuple3d.cpp" title="Tuple3d.cpp" tooltip="DaGI/src/vecmath/Tuple3d.cpp" workbook="org.eclipse.ui.internal.EditorStack@6ecaf9">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DaGI/src/vecmath/Tuple3d.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="344" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -52,7 +72,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
+<category IMemento.internal.id="Errors (1 item)"/>
 <category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
@@ -71,7 +91,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspectives activePart="org.eclipse.ui.views.ProblemView" activePerspective="org.eclipse.cdt.ui.CPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -189,71 +209,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DaGI/src/Tuple3d.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DaGI/src/Tuple3d.hpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DaGI/src/vecmath/Vector3d.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DaGI/src/vecmath/Vector3d.hpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DaGI/src/vecmath/Tuple3d.hpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DaGI/src/math.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DaGI/src/math.hpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DaGI/src/vecmath/Point3d.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DaGI/src/vecmath/Tuple3d.cpp"/>
 </editors>
-<item historyLabel="Tuple3d.cpp" index="0">
+<item historyLabel="Point3d.cpp" index="5">
+<position info="not_deleted" x="155" y="0"/>
+</item>
+<item historyLabel="math.cpp" index="3">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="math.hpp" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Tuple3d.hpp" index="1">
-<position info="not_deleted" x="473" y="5"/>
+<item historyLabel="math.cpp" index="3">
+<position info="not_deleted" x="155" y="60"/>
 </item>
-<item historyLabel="Tuple3d.cpp" index="0">
-<position info="not_deleted" x="109" y="0"/>
+<item historyLabel="math.hpp" index="4">
+<position info="not_deleted" x="222" y="0"/>
 </item>
-<item historyLabel="Tuple3d.hpp" index="1">
-<position info="not_deleted" x="2" y="0"/>
-</item>
-<item historyLabel="Tuple3d.cpp" index="0">
-<position info="not_deleted" x="86" y="0"/>
-</item>
-<item historyLabel="Tuple3d.hpp" index="1">
-<position info="not_deleted" x="2" y="0"/>
-</item>
-<item historyLabel="Tuple3d.hpp" index="1">
-<position info="not_deleted" x="1467" y="0"/>
-</item>
-<item historyLabel="Tuple3d.hpp" index="1">
+<item historyLabel="Vector3d.hpp" index="1">
 <position/>
 </item>
-<item historyLabel="Tuple3d.hpp" index="1">
+<item historyLabel="Tuple3d.hpp" index="2">
+<position info="not_deleted" x="401" y="0"/>
+</item>
+<item historyLabel="Tuple3d.cpp" index="6">
+<position info="not_deleted" x="248" y="0"/>
+</item>
+<item historyLabel="Point3d.cpp" index="5">
+<position info="not_deleted" x="213" y="16"/>
+</item>
+<item historyLabel="Vector3d.hpp" index="1">
 <position/>
 </item>
-<item historyLabel="Tuple3d.cpp" index="0">
-<position info="not_deleted" x="86" y="0"/>
+<item historyLabel="Vector3d.cpp" index="0">
+<position info="not_deleted" x="258" y="0"/>
 </item>
-<item historyLabel="Tuple3d.hpp" index="1">
-<position info="not_deleted" x="1387" y="0"/>
-</item>
-<item historyLabel="Tuple3d.cpp" index="0">
-<position info="not_deleted" x="341" y="0"/>
-</item>
-<item historyLabel="Tuple3d.hpp" index="1">
-<position info="not_deleted" x="1387" y="0"/>
-</item>
-<item historyLabel="Tuple3d.cpp" index="0">
-<position info="not_deleted" x="341" y="0"/>
-</item>
-<item historyLabel="Tuple3d.cpp" index="0">
+<item historyLabel="Vector3d.cpp" index="0">
 <position/>
 </item>
-<item historyLabel="Tuple3d.cpp" index="0">
-<position info="not_deleted" x="105" y="20"/>
+<item historyLabel="Vector3d.cpp" index="0">
+<position info="not_deleted" x="239" y="0"/>
 </item>
-<item historyLabel="Tuple3d.hpp" index="1">
-<position info="not_deleted" x="1471" y="0"/>
+<item historyLabel="Tuple3d.hpp" index="2">
+<position info="not_deleted" x="401" y="0"/>
 </item>
-<item historyLabel="Tuple3d.cpp" index="0">
-<position info="not_deleted" x="336" y="0"/>
+<item historyLabel="Point3d.cpp" index="5">
+<position info="not_deleted" x="123" y="0"/>
 </item>
-<item historyLabel="Tuple3d.hpp" index="1">
-<position info="not_deleted" x="452" y="0"/>
+<item historyLabel="Tuple3d.cpp" index="6">
+<position info="not_deleted" x="344" y="0"/>
 </item>
-<item historyLabel="Tuple3d.cpp" index="0">
-<position info="not_deleted" x="80" y="0"/>
+<item historyLabel="Point3d.cpp" index="5">
+<position info="not_deleted" x="317" y="0"/>
 </item>
-<item active="true" historyLabel="Tuple3d.hpp" index="1">
-<position info="not_deleted" x="452" y="0"/>
+<item historyLabel="Vector3d.cpp" index="0">
+<position info="not_deleted" x="239" y="0"/>
+</item>
+<item historyLabel="Vector3d.hpp" index="1">
+<position/>
+</item>
+<item historyLabel="Tuple3d.hpp" index="2">
+<position info="not_deleted" x="401" y="0"/>
+</item>
+<item historyLabel="Point3d.cpp" index="5">
+<position info="not_deleted" x="317" y="0"/>
+</item>
+<item historyLabel="math.hpp" index="4">
+<position info="not_deleted" x="222" y="0"/>
+</item>
+<item historyLabel="Tuple3d.cpp" index="6">
+<position info="not_deleted" x="344" y="0"/>
+</item>
+<item historyLabel="math.hpp" index="4">
+<position info="not_deleted" x="222" y="0"/>
+</item>
+<item historyLabel="Point3d.cpp" index="5">
+<position info="not_deleted" x="317" y="0"/>
+</item>
+<item historyLabel="Tuple3d.cpp" index="6">
+<position info="not_deleted" x="344" y="0"/>
+</item>
+<item historyLabel="Point3d.cpp" index="5">
+<position info="not_deleted" x="234" y="0"/>
+</item>
+<item historyLabel="Tuple3d.cpp" index="6">
+<position info="not_deleted" x="344" y="0"/>
+</item>
+<item historyLabel="Vector3d.cpp" index="0">
+<position info="not_deleted" x="239" y="0"/>
+</item>
+<item historyLabel="Vector3d.hpp" index="1">
+<position info="not_deleted" x="584" y="0"/>
+</item>
+<item historyLabel="Vector3d.cpp" index="0">
+<position info="not_deleted" x="239" y="0"/>
+</item>
+<item historyLabel="Vector3d.hpp" index="1">
+<position/>
+</item>
+<item historyLabel="Vector3d.cpp" index="0">
+<position info="not_deleted" x="239" y="0"/>
+</item>
+<item historyLabel="Vector3d.hpp" index="1">
+<position/>
+</item>
+<item historyLabel="Vector3d.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Tuple3d.hpp" index="2">
+<position info="not_deleted" x="1232" y="0"/>
+</item>
+<item historyLabel="Vector3d.hpp" index="1">
+<position/>
+</item>
+<item historyLabel="Vector3d.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Vector3d.hpp" index="1">
+<position info="not_deleted" x="584" y="1"/>
+</item>
+<item historyLabel="Vector3d.cpp" index="0">
+<position info="not_deleted" x="885" y="0"/>
+</item>
+<item historyLabel="Vector3d.hpp" index="1">
+<position info="not_deleted" x="586" y="72"/>
+</item>
+<item historyLabel="Vector3d.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Vector3d.hpp" index="1">
+<position/>
+</item>
+<item historyLabel="Vector3d.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Vector3d.hpp" index="1">
+<position info="not_deleted" x="654" y="0"/>
+</item>
+<item historyLabel="Vector3d.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Vector3d.cpp" index="0">
+<position info="not_deleted" x="1001" y="0"/>
+</item>
+<item historyLabel="Vector3d.cpp" index="0">
+<position info="not_deleted" x="1045" y="0"/>
+</item>
+<item historyLabel="Vector3d.hpp" index="1">
+<position info="not_deleted" x="693" y="0"/>
+</item>
+<item active="true" historyLabel="Vector3d.cpp" index="0">
+<position info="not_deleted" x="1065" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -273,11 +385,44 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Tuple3d.hpp" tooltip="DaGI/src/Tuple3d.hpp">
-<persistable path="/DaGI/src/Tuple3d.hpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Tuple3d.cpp" tooltip="DaGI/src/vecmath/Tuple3d.cpp">
+<persistable path="/DaGI/src/vecmath/Tuple3d.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="math.hpp" tooltip="DaGI/src/math.hpp">
+<persistable path="/DaGI/src/math.hpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="math.cpp" tooltip="DaGI/src/math.cpp">
+<persistable path="/DaGI/src/math.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Point3d.cpp" tooltip="DaGI/src/vecmath/Point3d.cpp">
+<persistable path="/DaGI/src/vecmath/Point3d.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Point3d.hpp" tooltip="DaGI/src/vecmath/Point3d.hpp">
+<persistable path="/DaGI/src/vecmath/Point3d.hpp"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="math.h" tooltip="/usr/include/math.h">
+<persistable path="/usr/include/math.h" project="DaGI"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Tuple3d.hpp" tooltip="DaGI/src/vecmath/Tuple3d.hpp">
+<persistable path="/DaGI/src/vecmath/Tuple3d.hpp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Tuple3d.cpp" tooltip="DaGI/src/Tuple3d.cpp">
 <persistable path="/DaGI/src/Tuple3d.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Point3d.hpp" tooltip="DaGI/src/Point3d.hpp">
+<persistable path="/DaGI/src/Point3d.hpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Point3d.cpp" tooltip="DaGI/src/Point3d.cpp">
+<persistable path="/DaGI/src/Point3d.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Vector3d.hpp" tooltip="DaGI/src/Vector3d.hpp">
+<persistable path="/DaGI/src/Vector3d.hpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Vector3d.cpp" tooltip="DaGI/src/Vector3d.cpp">
+<persistable path="/DaGI/src/Vector3d.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Tuple3d.hpp" tooltip="DaGI/src/Tuple3d.hpp">
+<persistable path="/DaGI/src/Tuple3d.hpp"/>
 </file>
 </mruList>
 </workbench>

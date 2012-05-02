@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1335051669324" transient="false" version="3.0">
+<config date="1335530052829" transient="false" version="3.0">
 <site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
-<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.0.1.v20110906-1605-8290FZ9FVKHVRKtmx3fpNuo02129/" version="1.0.1.v20110906-1605-8290FZ9FVKHVRKtmx3fpNuo02129">
-</feature>
 <feature id="org.eclipse.mylyn.wikitext_feature" plugin-identifier="org.eclipse.mylyn" url="features/org.eclipse.mylyn.wikitext_feature_1.5.5.v20120215-0100/" version="1.5.5.v20120215-0100">
+</feature>
+<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.0.1.v20110906-1605-8290FZ9FVKHVRKtmx3fpNuo02129/" version="1.0.1.v20110906-1605-8290FZ9FVKHVRKtmx3fpNuo02129">
 </feature>
 <feature id="org.eclipse.rse.local" plugin-identifier="org.eclipse.rse.services.local" url="features/org.eclipse.rse.local_2.1.300.v201103142315-7B4FKsBgJ9EE9ICQIFYT/" version="2.1.300.v201103142315-7B4FKsBgJ9EE9ICQIFYT">
 </feature>
@@ -11,9 +11,9 @@
 </feature>
 <feature id="org.eclipse.equinox.p2.discovery.feature" url="features/org.eclipse.equinox.p2.discovery.feature_1.0.101.R37x_v20110909-4-8_9oB5885K5B28WKK/" version="1.0.101.R37x_v20110909-4-8_9oB5885K5B28WKK">
 </feature>
-<feature id="org.eclipse.rse.telnet" plugin-identifier="org.eclipse.rse.services.telnet" url="features/org.eclipse.rse.telnet_2.2.200.v201106011538-775F8NAkF7BB7B9NEIPP/" version="2.2.200.v201106011538-775F8NAkF7BB7B9NEIPP">
-</feature>
 <feature id="org.eclipse.cdt.p2" url="features/org.eclipse.cdt.p2_1.0.0.201202111925/" version="1.0.0.201202111925">
+</feature>
+<feature id="org.eclipse.rse.telnet" plugin-identifier="org.eclipse.rse.services.telnet" url="features/org.eclipse.rse.telnet_2.2.200.v201106011538-775F8NAkF7BB7B9NEIPP/" version="2.2.200.v201106011538-775F8NAkF7BB7B9NEIPP">
 </feature>
 <feature id="org.eclipse.platform" url="features/org.eclipse.platform_3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q/" version="3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q">
 </feature>
@@ -51,17 +51,17 @@
 </feature>
 <feature id="org.eclipse.rse.core" url="features/org.eclipse.rse.core_3.3.2.R33x_v201110030150-7a7JFZ4F8Fz0vz03_qRujci-z-Mp/" version="3.3.2.R33x_v201110030150-7a7JFZ4F8Fz0vz03_qRujci-z-Mp">
 </feature>
-<feature id="org.eclipse.rse.ftp" plugin-identifier="org.eclipse.rse.services.files.ftp" url="features/org.eclipse.rse.ftp_3.0.301.R33x_v201109141647-782F8O9KC92gz097E9EKF23225/" version="3.0.301.R33x_v201109141647-782F8O9KC92gz097E9EKF23225">
-</feature>
 <feature id="org.eclipse.epp.package.common.feature" url="features/org.eclipse.epp.package.common.feature_1.4.2.20120213-0814/" version="1.4.2.20120213-0814">
 </feature>
-<feature id="org.eclipse.egit" url="features/org.eclipse.egit_1.3.0.201202151440-r/" version="1.3.0.201202151440-r">
+<feature id="org.eclipse.rse.ftp" plugin-identifier="org.eclipse.rse.services.files.ftp" url="features/org.eclipse.rse.ftp_3.0.301.R33x_v201109141647-782F8O9KC92gz097E9EKF23225/" version="3.0.301.R33x_v201109141647-782F8O9KC92gz097E9EKF23225">
 </feature>
 <feature id="org.eclipse.mylyn_feature" plugin-identifier="org.eclipse.mylyn" url="features/org.eclipse.mylyn_feature_3.6.5.v20120215-0100/" version="3.6.5.v20120215-0100">
 </feature>
-<feature id="org.eclipse.epp.usagedata.feature" url="features/org.eclipse.epp.usagedata.feature_1.4.0.R201106061540/" version="1.4.0.R201106061540">
+<feature id="org.eclipse.egit" url="features/org.eclipse.egit_1.3.0.201202151440-r/" version="1.3.0.201202151440-r">
 </feature>
 <feature id="org.eclipse.cdt.debug.ui.memory" url="features/org.eclipse.cdt.debug.ui.memory_2.1.200.201202111925/" version="2.1.200.201202111925">
+</feature>
+<feature id="org.eclipse.epp.usagedata.feature" url="features/org.eclipse.epp.usagedata.feature_1.4.0.R201106061540/" version="1.4.0.R201106061540">
 </feature>
 <feature id="org.eclipse.jgit" url="features/org.eclipse.jgit_1.3.0.201202151440-r/" version="1.3.0.201202151440-r">
 </feature>
@@ -77,17 +77,17 @@
 </feature>
 <feature id="org.eclipse.rse.terminals" plugin-identifier="org.eclipse.rse.terminals.ui" url="features/org.eclipse.rse.terminals_1.1.1.R33x_v201109141647-771Bh9uD7HbBF3u7DNO3293A3752/" version="1.1.1.R33x_v201109141647-771Bh9uD7HbBF3u7DNO3293A3752">
 </feature>
-<feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.0.1.v20110906-1605-7A4FD4DiVOMap8cHSc6vPuny4gqO/" version="1.0.1.v20110906-1605-7A4FD4DiVOMap8cHSc6vPuny4gqO">
-</feature>
 <feature id="org.eclipse.linuxtools.cdt.autotools" url="features/org.eclipse.linuxtools.cdt.autotools_3.0.1.201202152032/" version="3.0.1.201202152032">
+</feature>
+<feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.0.1.v20110906-1605-7A4FD4DiVOMap8cHSc6vPuny4gqO/" version="1.0.1.v20110906-1605-7A4FD4DiVOMap8cHSc6vPuny4gqO">
 </feature>
 <feature id="org.eclipse.cdt.gnu.dsf" url="features/org.eclipse.cdt.gnu.dsf_4.0.1.201202111925/" version="4.0.1.201202111925">
 </feature>
-<feature id="org.eclipse.mylyn.context_feature" plugin-identifier="org.eclipse.mylyn" url="features/org.eclipse.mylyn.context_feature_3.6.5.v20120215-0100/" version="3.6.5.v20120215-0100">
+<feature id="org.eclipse.cdt.gdb" url="features/org.eclipse.cdt.gdb_7.0.0.201202111925/" version="7.0.0.201202111925">
 </feature>
 <feature id="org.eclipse.cdt.gnu.debug" url="features/org.eclipse.cdt.gnu.debug_7.1.1.201202111925/" version="7.1.1.201202111925">
 </feature>
-<feature id="org.eclipse.cdt.gdb" url="features/org.eclipse.cdt.gdb_7.0.0.201202111925/" version="7.0.0.201202111925">
+<feature id="org.eclipse.mylyn.context_feature" plugin-identifier="org.eclipse.mylyn" url="features/org.eclipse.mylyn.context_feature_3.6.5.v20120215-0100/" version="3.6.5.v20120215-0100">
 </feature>
 </site>
 </config>
